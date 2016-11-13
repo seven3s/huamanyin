@@ -31,7 +31,7 @@ hr{
 
 .sidebar-container a:hover,
 .sidebar-container a:active {
-    color: #0085a1 !important;
+    color: #cb945e !important;
 }
 
 .sidebar-container .tags a {
@@ -40,7 +40,7 @@ hr{
 
 .sidebar-container .tags a:hover,
 .sidebar-container .tags a:active {
-    border-color: #0085a1;
+    border-color: #cb945e;
 }
 
 .sidebar-container .short-about img {
@@ -66,6 +66,10 @@ body {
     color: #404040;
     overflow-x: hidden;
     font-family: -apple-system,  "PingFang SC","Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    background-attachment: fixed;
+    background-image: url("http://ogkz342di.bkt.clouddn.com/69d845bbjw1f674vk5mc5j218g0p0wt3.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
 }
 
 p {
@@ -94,7 +98,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #0085a1;
+    color: #cb945e;
 }
 
 a img:hover,
@@ -335,7 +339,7 @@ article blockquote footer{
 
     .navbar-custom .nav li a:hover,
     .navbar-custom .nav li a:focus {
-        color: #FC7097;
+        color: #cb945e;
     }
 
     .navbar-custom .nav li a:active {
@@ -359,7 +363,7 @@ article blockquote footer{
     .navbar-custom.is-fixed .nav li a:focus,
     .navbar-custom.is-fixed .navbar-brand:hover,
     .navbar-custom.is-fixed .navbar-brand:focus {
-        color: #0085a1;
+        color: #cb945e;
     }
 }
 
@@ -473,7 +477,7 @@ a:focus {
 }
 .post-preview > a > h2{transition: color .3s;}
 .post-preview:not(:first-of-type) > a:hover > h2{
-    color: #FC7097;
+    color: #cb945e;
 }
 
 .post-preview > a > .post-title {
@@ -506,7 +510,7 @@ a:focus {
 
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-    color: #0085a1;
+    color: #cb945e;
     text-decoration: underline;
 }
 
@@ -563,7 +567,7 @@ footer .copyright a {
 
 footer .copyright a:hover,
 footer .copyright a:focus {
-    color: #0085a1;
+    color: #cb945e;
 }
 
 .floating-label-form-group {
@@ -612,7 +616,7 @@ footer .copyright a:focus {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #0085a1;
+    color: #cb945e;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -641,8 +645,8 @@ form .row:first-child .floating-label-form-group {
 
 .btn-default:hover,
 .btn-default:focus {
-    background-color: #0085a1;
-    border: 1px solid #0085a1;
+    background-color: #cb945e;
+    border: 1px solid #cb945e;
     color: white;
 }
 
@@ -683,8 +687,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
     color: white;
-    background-color: #0085a1;
-    border: 1px solid #0085a1;
+    background-color: #cb945e;
+    border: 1px solid #cb945e;
 }
 
 .pager .disabled > a,
@@ -699,13 +703,13 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
     color: white;
     text-shadow: none;
-    background: #0085a1;
+    background: #cb945e;
 }
 
 ::selection {
     color: white;
     text-shadow: none;
-    background: #0085a1;
+    background: #cb945e;
 }
 
 img::selection {
@@ -783,7 +787,7 @@ img::-moz-selection {
 #tag_cloud .tag:hover,
 #tag_cloud a:active,
 #tag_cloud .tag:active {
-    background-color: #0085a1 !important;
+    background-color: #cb945e !important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -807,7 +811,7 @@ img::-moz-selection {
 }
 
 .listing-seperator {
-    color: #0085a1;
+    color: #cb945e;
     font-size: 21px !important;
 }
 
@@ -1055,7 +1059,7 @@ img::-moz-selection {
 }
 
 .container .toc-wrap .toc-level-2 > a {
-    color: #0085a1;
+    color: #cb945e;
     font-size: .9em;
 }
 
@@ -1193,6 +1197,7 @@ img::-moz-selection {
 @media (min-width: 992px) {
     .custom-haojen-container {
         padding-top: 90px;
+        background: #fff;
     }
 }
 /*wechat ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã¢â‚¬Â¹Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â°ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Â¹Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ*/

@@ -17,7 +17,7 @@ email: liubiao@itoxs.com
 description: "花滿引--我的歌詞收集站"
 keyword: # seo key words
 
-favicon: # your favicon png
+favicon: http://odflit039.bkt.clouddn.com/favicon.ico
 # custom end
 
 # URL
@@ -58,7 +58,7 @@ ga_domain:
 
 # Sidebar settings
 sidebar-about-description: # 个人描述
-sidebar-avatar:     # use absolute URL
+sidebar-avatar: "http://ofn48b2kv.bkt.clouddn.com/%E8%8A%B1%E5%A4%8F.jpg"
 
 
 # Featured Tags
@@ -80,7 +80,7 @@ skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
-default_layout: post
+default_layout: poetry #post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
@@ -95,7 +95,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: 詞
 category_map:
 tag_map:
 
@@ -129,9 +129,9 @@ theme: Anisina
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 
-  repo: 
-  branch: 
+  type: git
+  repo: https://github.com/liubiao0810/huamanyin.git
+  branch: gh-pages 
 
 
 # img CDN path
