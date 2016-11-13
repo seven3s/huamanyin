@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="花滿引--我的歌詞收集站">
-    <meta name="keyword" content="null">
+    <meta name="keyword" content="花满铺路-蜂蝶引">
     <meta name="theme-color" content="#600090">
     <meta name="msapplication-navbutton-color" content="#600090">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -37,7 +37,7 @@
 <style>
 
     header.intro-header {
-        background-image: url('null')
+        background-image: url('http://ogkz342di.bkt.clouddn.com/021.jpg')
     }
 </style>
 <!-- hack iOS CSS :active style -->
@@ -123,15 +123,17 @@
     }
 
     .poetry-container .poetry-content {
-        writing-mode: vertical-lr;
-        -ms-writing-mode: tb-lr;
+        writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
         margin: 100px auto 0;
         overflow: auto;
         max-width: 90%;
-        max-height: 700px;
+        min-height: 600px;;
+        max-height: 1200px;
         display: inline-block;
         text-align: left;
         padding: 5px 15px 30px;
+        color: #3d4540;
     }
 
     .poetry-head {
@@ -167,6 +169,7 @@
         text-indent: 63px;
         line-height: 40px;
         margin: 0;
+        color: #3d4540;
     }
 
     /* ipad */
@@ -179,22 +182,37 @@
         }
 
         .poetry-container .poetry-content p {
-            font-size: 16px;
-            text-indent: 46px;
+            font-size: 2rem;
+            text-indent: 0;
             line-height: 33px;
             letter-spacing: 6px;
             font-family: unset;
+            font-weight: 300;
+            color: #3d4540;
         }
 
         .poetry-container .poetry-content h2 {
             margin-right: 6px;
             font-size: 22px;
-            text-indent: 24px;
+            text-indent: 0;
             font-family: unset;
+            margin-bottom: 2.6rem;
         }
 
         .poetry-container .poetry-content h2 span {
             padding: 8px 5px;
+        }
+        .poetry-container .poetry-content {
+            writing-mode: initial;
+            -ms-writing-mode: tb-lr;
+            margin: 100px auto 0;
+            overflow: auto;
+            max-width: 90%;
+            min-height: 86%;
+            max-height: 1200px;
+            display: inline-block;
+            text-align: left;
+            padding: 5px 15px 30px;
         }
     }
 
@@ -203,13 +221,30 @@
         .poetry-container .poetry-content {
             max-height: 410px;
             padding-bottom: 20px;
+            writing-mode: initial;
+            -ms-writing-mode: tb-lr;
+            margin: 100px auto 0;
+            overflow: auto;
+            max-width: 90%;
+            min-height: 86%;
+            max-height: 1200px;
+            display: inline-block;
+            text-align: left;
+            padding: 5px 15px 30px;
         }
-
+        .poetry-container .poetry-content h2 {
+            margin-right: 6px;
+            font-size: 22px;
+            text-indent: 0;
+            font-family: unset;
+            margin-bottom: 2.6rem;
+        }
         .poetry-container .poetry-content p {
             line-height: 30px;
             letter-spacing: 3px;
+            font-size: 2rem;
+            font-weight: 300;
         }
-
     }
 
 
@@ -218,7 +253,7 @@
     <!--导航黑色-->
     <div class="poetry-head"></div>
     <!--主内容-->
-    <div class="poetry-content">
+    <div class="poetry-content" id="poetry-content">
         <h2>
                 <span>
                     test
@@ -233,16 +268,10 @@
                         col-md-8 col-md-offset-2
                         col-sm-10 col-sm-offset-1
                         col-xs-12">
-        <hr>
         
 
         <ul class="pager">
             
-            
-            <li class="next">
-                <a href="/huamanyin/2016/11/13/hello-world/" data-toggle="tooltip" data-placement="top"
-                   title="Hello World">下一篇 &rarr;</a>
-            </li>
             
         </ul>
 

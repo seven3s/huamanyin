@@ -559,15 +559,16 @@ footer .copyright {
     font-size: 14px;
     text-align: center;
     margin-top: 12px;
+    color: #fff;
 }
 
 footer .copyright a {
-    color: #337ab7;
+    color: #fff;
 }
 
 footer .copyright a:hover,
 footer .copyright a:focus {
-    color: #cb945e;
+    color: #fff;
 }
 
 .floating-label-form-group {
@@ -675,8 +676,13 @@ form .row:first-child .floating-label-form-group {
 @media only screen and (min-width: 768px) {
     .pager li > a,
     .pager li > span {
-        font-size: 14px;
-        padding: 15px 25px;
+        border-radius: 20px;
+        color: #f8ad46;
+        font-size: 0.7em;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 10px 15px;
+        text-shadow: none;
     }
 }
 
@@ -686,9 +692,9 @@ form .row:first-child .floating-label-form-group {
 
 .pager li > a:hover,
 .pager li > a:focus {
-    color: white;
-    background-color: #cb945e;
-    border: 1px solid #cb945e;
+    color: #333;
+    background-color: #fff;
+    /*border: 1px solid #cb945e;*/
 }
 
 .pager .disabled > a,

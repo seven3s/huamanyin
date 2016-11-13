@@ -12,10 +12,10 @@ timezone:
 # custom Site settings
 # more detail check out docs
 SEOTitle: 花滿引 
-header-img: 
+header-img: http://ogkz342di.bkt.clouddn.com/021.jpg
 email: liubiao@itoxs.com
 description: "花滿引--我的歌詞收集站"
-keyword: # seo key words
+keyword: 花满铺路-蜂蝶引
 
 favicon: http://odflit039.bkt.clouddn.com/favicon.ico
 # custom end
@@ -57,7 +57,7 @@ ga_track_id:             # Format: UA-xxxxxx-xx
 ga_domain:
 
 # Sidebar settings
-sidebar-about-description: # 个人描述
+sidebar-about-description: "花满铺路-蜂蝶引"
 sidebar-avatar: "http://ofn48b2kv.bkt.clouddn.com/%E8%8A%B1%E5%A4%8F.jpg"
 
 
@@ -135,7 +135,7 @@ deploy:
 
 
 # img CDN path
-cdn-url:  # 你的CDN地址
+cdn-url: http://ogkz342di.bkt.clouddn.com/
 
 # Qiniu imageView2 API
 # More info http://developer.qiniu.com/code/v6/api/kodo-api/image/imageview2.html
@@ -144,8 +144,9 @@ clip-avatar: "?imageView2/2/w/300/h/300/interlace/1/q/90"
 clip-home-post-bg: "?imageView2/1/w/800/h/300/interlace/1/q/70"
 
 # post default images
-post-default-img: #博文默认的图片
-post-default-img-mobile: #移动端显示的图片
+# post default images
+post-default-img: http://ogkz342di.bkt.clouddn.com/6B0BBF0C-DDEE-4FD2-9CB7-E18946AEFE3E.png
+post-default-img-mobile: http://ogkz342di.bkt.clouddn.com/6B0BBF0C-DDEE-4FD2-9CB7-E18946AEFE3E.png
 
 # search api , set your custom key
 swiftype_key: 
